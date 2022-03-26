@@ -7,7 +7,7 @@
     "env": {
         "SCRAPYD_SERVER_1": {
             "description": "You can add more Scrapyd servers in the web UI of Heroku after the app is bulit, and the key of the environment variable should be like SCRAPYD_SERVER_n (n for a unique integer).",
-            "value": "username:password@svr-1.herokuapp.com:80",
+            "value": "redis-11156.c16.us-east-1-2.ec2.cloud.redislabs.com:11156",
             "required": true
         },
         "SCRAPYD_SERVER_2": {
@@ -43,7 +43,7 @@
         "TZ": {
             "description": "Timezone of the app, get it via: python -c \"import tzlocal; print(tzlocal.get_localzone())\"",
             "value": "UTC",
-            "required": false
+            "required": truue
         },
         "VERBOSE": {
             "description": "The default is False, set it to True to change the logging level from WARNING to DEBUG.",
