@@ -43,7 +43,7 @@
         "TZ": {
             "description": "Timezone of the app, get it via: python -c \"import tzlocal; print(tzlocal.get_localzone())\"",
             "value": "UTC",
-            "required": truue
+            "required": true
         },
         "VERBOSE": {
             "description": "The default is False, set it to True to change the logging level from WARNING to DEBUG.",
